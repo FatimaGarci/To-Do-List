@@ -1,5 +1,4 @@
 import React from 'react';
-//import logo from './logo.svg';
 import './App.css';
 import List from './components/list';
 
@@ -34,7 +33,7 @@ export default class App extends React.Component {
       <div>
         <div className="header">
           <div className="wrapper">
-            <img src="https://images.vexels.com/media/users/3/158239/isolated/preview/305ba6b895c4c7f2ff79878d849d0795-smile-emoticon-face-by-vexels.png" />
+            <img src="https://images.vexels.com/media/users/3/158239/isolated/preview/305ba6b895c4c7f2ff79878d849d0795-smile-emoticon-face-by-vexels.png" alt="happy-face"/>
             <p className="title">Do Your List For The Day!</p>
           </div>
         </div>
