@@ -33,7 +33,7 @@ export default class App extends React.Component {
       <div>
         <div className="header">
           <div className="wrapper">
-            <img src="https://images.vexels.com/media/users/3/158239/isolated/preview/305ba6b895c4c7f2ff79878d849d0795-smile-emoticon-face-by-vexels.png" alt="happy-face"/>
+            <img src="https://lh3.googleusercontent.com/proxy/AnhDr8IPJaK-zQOCiMa2ahkSthUBm6cvlY0IALzcEusfJAT7lfmO7sfG0F_nGQcAIUzIyndxrasNWWaaKeRfaBZCkDldPq5KHtju6Q" alt="happy-face"/>
             <p className="title">Do Your List For The Day!</p>
           </div>
         </div>
@@ -46,7 +46,7 @@ export default class App extends React.Component {
               </form>
               <br />
           </div>
-          <List items={this.state.items}/>
+          <List items={this.state.items} id="list- item"/>
         </div>
       </div>
     );
